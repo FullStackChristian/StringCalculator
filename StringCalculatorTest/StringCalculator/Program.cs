@@ -11,7 +11,7 @@ namespace StringCalculator
             //Call Add method
             int result = calc.Add("//;\n1;2");
             Console.WriteLine(result);
-            
+            Console.ReadKey();
         }
     }
 }
