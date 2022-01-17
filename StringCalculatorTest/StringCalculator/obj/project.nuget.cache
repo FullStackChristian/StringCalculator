@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "019fBW786h6nCxvk/pbcmLqn7pgexxAUBRNrSM0z78PvSl/J2gPPFMKZv/jf3jbGWb4eEQ0WKbqUgc6Ot/u9Ow==",
+  "dgSpecHash": "fSHlH2m6J2YdjZ4jfTmzWRS9KI/w5bgQ16Jm1ougr7hyGKGSbIlBdHDPi/5AU9iZnb6nf7YZPZTtjKqvgeZJpg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\chris\\source\\repos\\StringCalculatorTest\\StringCalculator\\StringCalculator.csproj",
+  "projectFilePath": "C:\\Users\\chris\\Documents\\StringCalculator\\StringCalculatorTest\\StringCalculator\\StringCalculator.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -46,7 +46,7 @@ namespace StringCalculator
                     num = 0;
                 }
                 //collect negative numbers in a list
-                if (num < 0)
+                else if (num < 0)
                 {
                     negatives.Add(num);
                 }

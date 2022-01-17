@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\chris\\source\\repos\\StringCalculatorTest\\StringCalculator\\StringCalculator.csproj",
+      "projectUniqueName": "C:\\Users\\chris\\Documents\\StringCalculator\\StringCalculatorTest\\StringCalculator\\StringCalculator.csproj",
       "projectName": "StringCalculator",
-      "projectPath": "C:\\Users\\chris\\source\\repos\\StringCalculatorTest\\StringCalculator\\StringCalculator.csproj",
+      "projectPath": "C:\\Users\\chris\\Documents\\StringCalculator\\StringCalculatorTest\\StringCalculator\\StringCalculator.csproj",
       "packagesPath": "C:\\Users\\chris\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\chris\\source\\repos\\StringCalculatorTest\\StringCalculator\\obj\\",
+      "outputPath": "C:\\Users\\chris\\Documents\\StringCalculator\\StringCalculatorTest\\StringCalculator\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
