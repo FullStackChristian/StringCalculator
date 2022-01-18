@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace StringCalculator
 {
     public class Calculator
@@ -16,30 +17,31 @@ namespace StringCalculator
         /// <returns>all numbers added, ignoring negatives and numbers greater than 1000</returns>
         public int Add(string input)
         {
+            StringParser parser = new StringParser();
+            Delimiter delim = new Delimiter();
             //creating a list here so I can easily add to it rather than appending to a char array
-            List<char> delimitersList = new List<char>();
+            List<char> delimitersList = delim.AddDelimiter(input);
             List<int> negatives = new List<int>();
-            delimitersList.Add(',');
-            delimitersList.Add('\n');
+
             //Handle case for no numbers entered
             if (input.Equals("")){ return 0; }
-            //Handle case for custom delimiter starting with //{delimiter}
+
+            //need to modify the input string and remove //;
             if (input.StartsWith("//"))
             {
-                string customDelim = input.Substring(2, 1);
-                char charDelim = char.Parse(customDelim);
-                delimitersList.Add(charDelim);
                 input = input.Substring(4);
             }
             //Not best practice as I am converting my list into a charArray to use the Split method on my input string
             char[] delimiters = delimitersList.ToArray();
+            
             //Split string by delimiter into numbers array
             var numbers = input.Split(delimiters);
             //Handle case for multiple numbers
             int result = 0;
+
             foreach (string numStr in numbers)
             {
-                int num = int.Parse(numStr);
+                int num = parser.ParseToInt(numStr);
                 //ignore numbers greater than a thousand in the calculation
                 if (num >= 1000)
                 {
